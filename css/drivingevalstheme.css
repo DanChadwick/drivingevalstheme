@@ -85,3 +85,9 @@ th, thead, thead th {
 .block input.form-file {
 	width: auto;
 }
+
+/* restore width 100% for the login form */
+#user-login-form #edit-name,
+#user-login-form #edit-pass {
+	width: 100%;
+}
