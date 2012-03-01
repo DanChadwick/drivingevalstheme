@@ -39,14 +39,32 @@ tr.bottom-header th{
 	padding-top: 0;
 }
 
+#webform-component-rungroup,
+#webform-component-recommended-rungroup,
+#webform-component-talk,
+#webform-component-again,
+#webform-component-communicator {
+	margin: 0;
+	padding: 10px 14px;
+}
+
 /* Undo Corolla's weird placement of fieldset legends inside the fieldset */
 fieldset legend {
 	position: static;
 	background-color: #4e4e4e;
+	padding-top: 1em;
+	
+	margin-top: 1em;
+	font-weight: 700;
 }
 
 fieldset.webform-component-fieldset legend span.fieldset-legend {
 	padding-right: 6em;
+}
+
+/* reduce overly large margin at top (was created for lowered legend) */
+.fieldset-wrapper.with-legend {
+	margin-top: 1em;
 }
 
 th, thead, thead th {
@@ -59,4 +77,11 @@ th, thead, thead th {
 #menu-bar  ul > li > a.active:focus {
   color: #2e2e2d;
   background-color: #eeeeee;
+}
+
+/* Undo Carolla's 100% width on input fields */
+.block input.form-text,
+.block input.form-password,
+.block input.form-file {
+	width: auto;
 }
