@@ -53,6 +53,7 @@ th, thead, thead th {
 	background-color: #4e4e4e;
 }
 
+/* With a menu block in the menu bar, the ul is not a direct child of #menubar */
 #menu-bar  ul > li > a.active,
 #menu-bar  ul > li > a.active:hover,
 #menu-bar  ul > li > a.active:focus {
