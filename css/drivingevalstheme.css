@@ -52,8 +52,10 @@ tr.bottom-header th{
 fieldset legend {
 	position: static;
 	background-color: #4e4e4e;
-	padding-top: 1em;
-	
+}
+
+fieldset.webform-component-fieldset {
+	padding-top: 1em;	
 	margin-top: 1em;
 	font-weight: 700;
 }
