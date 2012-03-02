@@ -18,10 +18,10 @@ function drivingevalstheme_preprocess_html(&$vars) {
   // If you change the names of these files they must match here - these files are
   // in the /css/ directory of your subtheme - the names must be identical!
   $media_queries_css = array(
-    'footheme.responsive.style.css',
-    'footheme.responsive.gpanels.css'
+    'drivingevalstheme.responsive.style.css',
+    'drivingevalstheme.responsive.gpanels.css'
   );
-  load_subtheme_media_queries($media_queries_css, 'footheme'); // Replace 'footheme' with your themes name
+  load_subtheme_media_queries($media_queries_css, 'drivingevalstheme'); // Replace 'footheme' with your themes name
 
  /**
   * Load IE specific stylesheets
@@ -40,7 +40,7 @@ function drivingevalstheme_preprocess_html(&$vars) {
   $ie_files = array(
     'lte IE 7' => 'ie-lte-7.css',
   );
-  load_subtheme_ie_styles($ie_files, 'footheme'); // Replace 'footheme' with your themes name
+  load_subtheme_ie_styles($ie_files, 'drivingevalstheme'); // Replace 'footheme' with your themes name
   // */
 
 }

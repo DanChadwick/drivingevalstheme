@@ -1,6 +1,8 @@
 
 -- SUMMARY --
 
+DrivingEvalsTheme started as Footheme, and was renamed as documented here.
+
 FOOTHEMES ARE GO!
 
 Footheme is a stater sub-theme for Corolla 7.x-2.x and can be easily
