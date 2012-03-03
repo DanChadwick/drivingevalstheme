@@ -122,8 +122,8 @@ th, thead, thead th {
 	list-style: decimal;
 }
 
-#block-drivingevals-instructor ul.eval-name > li > a,
-#block-drivingevals-student ul.eval-name > li > a{
+#block-drivingevals-instructor a.link-button,
+#block-drivingevals-student a.link-button {
 	display: inline-block;
 	padding: 0.25em 1em;
 	margin: 0.5em 0.5em;
