@@ -99,3 +99,41 @@ th, thead, thead th {
 #user-login-form #edit-pass {
 	width: 100%;
 }
+
+/* Student and instructor home page submission blocks */
+#block-drivingevals-instructor li.eval-name,
+#block-drivingevals-student li.eval-name {
+	margin-top: 1em;
+	margin-bottom: 2em;
+	list-style: none;
+	font-size: 1.1em;
+}
+
+#block-drivingevals-instructor ul.eval-name.no-children > li,
+#block-drivingevals-student ul.eval-name.no-children > li{
+	list-style: none;
+	color: #666666;
+	padding: 0.25em 1em;
+	margin: 0.5em 0.5em;
+}
+
+#block-drivingevals-instructor ul.eval-name > li,
+#block-drivingevals-student ul.eval-name > li {
+	list-style: decimal;
+}
+
+#block-drivingevals-instructor ul.eval-name > li > a,
+#block-drivingevals-student ul.eval-name > li > a{
+	display: inline-block;
+	padding: 0.25em 1em;
+	margin: 0.5em 0.5em;
+	background-color: #e6e6e6;
+	color: black;
+	border: #c4c4c4 solid 2px;
+	border-radius: 6px;
+}
+
+#block-drivingevals-instructor ul.eval-name > li > a:hover,
+#block-drivingevals-student ul.eval-name > li > a:hover {
+	color: #E25400;
+}
