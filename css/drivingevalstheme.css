@@ -43,9 +43,14 @@ tr.bottom-header th{
 #webform-component-recommended-rungroup,
 #webform-component-talk,
 #webform-component-again,
-#webform-component-communicator {
+#webform-component-communicator,
+#webform-component-more {
 	margin: 0;
 	padding: 10px 14px;
+}
+
+.webform-component-webform_grid table {
+	width: auto;
 }
 
 /* Undo Corolla's weird placement of fieldset legends inside the fieldset */
