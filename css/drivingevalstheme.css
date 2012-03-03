@@ -57,10 +57,11 @@ fieldset legend {
 fieldset.webform-component-fieldset {
 	padding-top: 1em;	
 	margin-top: 1em;
-	font-weight: 700;
 }
 
 fieldset.webform-component-fieldset legend span.fieldset-legend {
+	font-weight: 700;
+	padding-top: 1em;	
 	padding-right: 6em;
 }
 
