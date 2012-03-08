@@ -43,4 +43,8 @@ function drivingevalstheme_preprocess_html(&$vars) {
   load_subtheme_ie_styles($ie_files, 'drivingevalstheme'); // Replace 'footheme' with your themes name
   // */
 
+  $ie_files = array(
+    'IE' => 'ie.css',
+  );
+  load_subtheme_ie_styles($ie_files, 'drivingevalstheme');
 }
