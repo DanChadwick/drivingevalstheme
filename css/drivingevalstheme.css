@@ -49,6 +49,7 @@ tr.bottom-header th{
 	padding: 10px 14px;
 }
 
+.webform-component table,
 .webform-component-webform_grid table {
 	width: auto;
 }
