@@ -138,3 +138,7 @@ th, thead, thead th {
 #block-drivingevals-student ul.eval-name > li > a:hover {
 	color: #E25400;
 }
+
+#admin-menu {
+	font-size: 9pt;
+}
