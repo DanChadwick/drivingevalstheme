@@ -95,6 +95,13 @@
             <?php print render($title_suffix); ?>
 
             <?php if ($action_links = render($action_links)): ?>
+              <?php
+                foreach ($primary_local_tasks as $key => $task) {
+                  if (is_int($key) && isset($task['#link']) && isset($task['#active']) && $task['#active'] && strpos($task['#link']['path'], 'node/%/day/') ===0) {
+                    print(t('<div class="action-title">Make: </div>'));
+                  }
+                }
+              ?>
               <ul class="action-links"><?php print $action_links; ?></ul>
             <?php endif; ?>
 
