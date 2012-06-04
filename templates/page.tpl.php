@@ -96,9 +96,11 @@
 
             <?php if ($action_links = render($action_links)): ?>
               <?php
-                foreach ($primary_local_tasks as $key => $task) {
-                  if (is_int($key) && isset($task['#link']) && isset($task['#active']) && $task['#active'] && strpos($task['#link']['path'], 'node/%/day/') ===0) {
-                    print(t('<div class="action-title">Make: </div>'));
+                if (is_array($primary_local_tasks)) {
+                  foreach ($primary_local_tasks as $key => $task) {
+                    if (is_int($key) && isset($task['#link']) && isset($task['#active']) && $task['#active'] && strpos($task['#link']['path'], 'node/%/day/') ===0) {
+                      print(t('<div class="action-title">Make: </div>'));
+                    }
                   }
                 }
               ?>
