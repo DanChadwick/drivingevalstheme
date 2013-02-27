@@ -1,0 +1,9 @@
+/**
+ *
+ * Overridden Corolla styles for printing.
+ */
+
+/* Body */
+body { 
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif !important;
+}

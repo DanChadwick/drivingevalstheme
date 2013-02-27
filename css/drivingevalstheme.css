@@ -23,6 +23,9 @@
 #menu-bar ul > li > a {
 	text-transform: uppercase;
 }
+#menu-bar ul > li {
+	list-style-image: none;
+}
 
 #copyright {
 	margin-left: 10px;

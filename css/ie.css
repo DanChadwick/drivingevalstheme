@@ -1,8 +1,0 @@
-/* IE / H/W acceleration throbber misplaced: http://drupal.org/node/1069152 */
-html.js input.form-autocomplete {
-	background-position: 99% -100px;
-}
-
-html.js input.throbbing {
-	background-position: 99% -12px;
-}
