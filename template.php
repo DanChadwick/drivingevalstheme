@@ -30,9 +30,13 @@ function drivingevalstheme_process_html(&$vars) {
  * modifies the 'tabs' array, so copy those modification here to where AT core
  * keeps them.
  */
-/*
+
 function drivingevalstheme_preprocess_page(&$vars) {
+  if (!empty($_SESSION['masquerading'])) {
+    $vars['classes_array'][] = 'masquerading';
+  }
 }
+/*
 function drivingevalstheme_process_page(&$vars) {
 }
 // */

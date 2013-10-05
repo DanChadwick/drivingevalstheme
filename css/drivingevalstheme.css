@@ -8,6 +8,14 @@
  * as well.
  */
 
+/* Make header be light orange when masquerading */
+#page.masquerading #header-wrapper{
+	background-color: #FFDED3;
+}
+#page.masquerading a[href="/relinquish"] {
+	color: #FFBAA3;
+}
+
 #branding {
 	padding: 10px 10px 13px 10px;
 }
