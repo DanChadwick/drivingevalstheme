@@ -92,6 +92,18 @@ th, thead, thead th {
 	background-color: #4e4e4e;
 }
 
+thead th.active {
+	background-color: #3e3e3e;
+}
+
+thead th a {
+	color: #DEF3F9 !important;
+}
+thead th a:hover,
+thead th a:focus {
+	color: #FFE3D3 !important;
+}
+
 /* With a menu block in the menu bar, the ul is not a direct child of #menubar  */
 #menu-bar  ul > li > a.active,
 #menu-bar  ul > li > a.active:hover,
