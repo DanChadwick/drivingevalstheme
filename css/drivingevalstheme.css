@@ -166,3 +166,30 @@ thead th a:focus {
 #admin-menu {
 	font-size: 9pt;
 }
+
+/* Presentations */
+.node-presentation .field-name-body ul {
+	font-size: 1em;
+}
+
+.node-presentation .field-name-body .field-item>ul>li {
+	font-size: 1.230em;
+	font-weight: bold;
+	color: #555;
+	list-style: none;
+}
+.node-presentation .field-name-body .field-item>ul>li:before {
+	color:#EC6131;
+  content:"\27a4 "; 			/* Numerical unicode for a right-triangle bullet; */
+  font-size:1.5em; 					/* set the font-size of the bullet if necessary. Make sure to use em or %*/
+  padding-right:.25em; 		/* give the bullet some padding from the text Make sure to use em*/
+  position:relative;
+  top:.1em; /* set the vertical position of the bullet if necessary. Make sure to use em or % */
+}
+
+.node-presentation .field-name-body .field-item>ul>li>ul {
+	font-size: 0.9em;
+	list-style-type: disc;
+	font-weight: normal;
+	list-style: none;
+}
